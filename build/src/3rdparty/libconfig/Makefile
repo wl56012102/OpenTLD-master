@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,8 +113,8 @@ install/strip/fast: install/strip
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/progress.marks
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/progress.marks
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/clean
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/3rdparty/libconfig/CMakeFiles/config++.dir/rule:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/CMakeFiles/config++.dir/rule
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libconfig/CMakeFiles/config++.dir/rule
 .PHONY : src/3rdparty/libconfig/CMakeFiles/config++.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ config++: src/3rdparty/libconfig/CMakeFiles/config++.dir/rule
 
 # fast build rule for target.
 config++/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/build
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/build
 .PHONY : config++/fast
 
 grammar.o: grammar.c.o
@@ -175,7 +175,7 @@ grammar.o: grammar.c.o
 
 # target to build an object file
 grammar.c.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o
 .PHONY : grammar.c.o
 
 grammar.i: grammar.c.i
@@ -184,7 +184,7 @@ grammar.i: grammar.c.i
 
 # target to preprocess a source file
 grammar.c.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.i
 .PHONY : grammar.c.i
 
 grammar.s: grammar.c.s
@@ -193,7 +193,7 @@ grammar.s: grammar.c.s
 
 # target to generate assembly for a file
 grammar.c.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.s
 .PHONY : grammar.c.s
 
 libconfig.o: libconfig.c.o
@@ -202,7 +202,7 @@ libconfig.o: libconfig.c.o
 
 # target to build an object file
 libconfig.c.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o
 .PHONY : libconfig.c.o
 
 libconfig.i: libconfig.c.i
@@ -211,7 +211,7 @@ libconfig.i: libconfig.c.i
 
 # target to preprocess a source file
 libconfig.c.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.i
 .PHONY : libconfig.c.i
 
 libconfig.s: libconfig.c.s
@@ -220,7 +220,7 @@ libconfig.s: libconfig.c.s
 
 # target to generate assembly for a file
 libconfig.c.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.s
 .PHONY : libconfig.c.s
 
 libconfigcpp.o: libconfigcpp.cc.o
@@ -229,7 +229,7 @@ libconfigcpp.o: libconfigcpp.cc.o
 
 # target to build an object file
 libconfigcpp.cc.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o
 .PHONY : libconfigcpp.cc.o
 
 libconfigcpp.i: libconfigcpp.cc.i
@@ -238,7 +238,7 @@ libconfigcpp.i: libconfigcpp.cc.i
 
 # target to preprocess a source file
 libconfigcpp.cc.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.i
 .PHONY : libconfigcpp.cc.i
 
 libconfigcpp.s: libconfigcpp.cc.s
@@ -247,7 +247,7 @@ libconfigcpp.s: libconfigcpp.cc.s
 
 # target to generate assembly for a file
 libconfigcpp.cc.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.s
 .PHONY : libconfigcpp.cc.s
 
 scanctx.o: scanctx.c.o
@@ -256,7 +256,7 @@ scanctx.o: scanctx.c.o
 
 # target to build an object file
 scanctx.c.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o
 .PHONY : scanctx.c.o
 
 scanctx.i: scanctx.c.i
@@ -265,7 +265,7 @@ scanctx.i: scanctx.c.i
 
 # target to preprocess a source file
 scanctx.c.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.i
 .PHONY : scanctx.c.i
 
 scanctx.s: scanctx.c.s
@@ -274,7 +274,7 @@ scanctx.s: scanctx.c.s
 
 # target to generate assembly for a file
 scanctx.c.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.s
 .PHONY : scanctx.c.s
 
 scanner.o: scanner.c.o
@@ -283,7 +283,7 @@ scanner.o: scanner.c.o
 
 # target to build an object file
 scanner.c.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o
 .PHONY : scanner.c.o
 
 scanner.i: scanner.c.i
@@ -292,7 +292,7 @@ scanner.i: scanner.c.i
 
 # target to preprocess a source file
 scanner.c.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.i
 .PHONY : scanner.c.i
 
 scanner.s: scanner.c.s
@@ -301,7 +301,7 @@ scanner.s: scanner.c.s
 
 # target to generate assembly for a file
 scanner.c.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.s
 .PHONY : scanner.c.s
 
 strbuf.o: strbuf.c.o
@@ -310,7 +310,7 @@ strbuf.o: strbuf.c.o
 
 # target to build an object file
 strbuf.c.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o
 .PHONY : strbuf.c.o
 
 strbuf.i: strbuf.c.i
@@ -319,7 +319,7 @@ strbuf.i: strbuf.c.i
 
 # target to preprocess a source file
 strbuf.c.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.i
 .PHONY : strbuf.c.i
 
 strbuf.s: strbuf.c.s
@@ -328,7 +328,7 @@ strbuf.s: strbuf.c.s
 
 # target to generate assembly for a file
 strbuf.c.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.s
 .PHONY : strbuf.c.s
 
 # Help Target
@@ -373,6 +373,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig
+# Install script for directory: /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

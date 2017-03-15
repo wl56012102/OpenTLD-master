@@ -48,7 +48,7 @@ void Gui::init()
 {
     char const *name = m_window_name.c_str();
     cvNamedWindow(name, CV_WINDOW_AUTOSIZE);
-    cvMoveWindow(name, 1500, 800);
+    cvMoveWindow(name, 0, 0);
 //    cvResizeWindow(name, 800, 800);
 }
 

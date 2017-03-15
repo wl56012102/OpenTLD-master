@@ -1,4 +1,4 @@
-# Install script for directory: /home/madbob/Downloads/OpenTLD-master
+# Install script for directory: /home/madbob/src/OpenTLD-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs/cmake_install.cmake")
-  include("/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/cmake_install.cmake")
-  include("/home/madbob/Downloads/OpenTLD-master/build/src/libopentld/cmake_install.cmake")
-  include("/home/madbob/Downloads/OpenTLD-master/build/src/opentld/cmake_install.cmake")
+  include("/home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs/cmake_install.cmake")
+  include("/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/cmake_install.cmake")
+  include("/home/madbob/src/OpenTLD-master/build/src/libopentld/cmake_install.cmake")
+  include("/home/madbob/src/OpenTLD-master/build/src/opentld/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/madbob/Downloads/OpenTLD-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/madbob/src/OpenTLD-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

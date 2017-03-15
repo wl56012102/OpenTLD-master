@@ -120,15 +120,15 @@ vector
 ImAcq.h
 ../src/opentld/main/ImAcq.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/OpenTLD.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/OpenTLD.cpp
 Main.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/Main.h
 Config.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/Config.h
+/home/madbob/src/OpenTLD-master/src/opentld/Config.h
 ImAcq.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/ImAcq.h
+/home/madbob/src/OpenTLD-master/src/opentld/ImAcq.h
 Gui.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/Gui.h
+/home/madbob/src/OpenTLD-master/src/opentld/Gui.h
 
 /usr/local/include/opencv/cv.h
 opencv2/core/core_c.h
@@ -307,9 +307,9 @@ ostream
 /usr/local/include/opencv2/core/fast_math.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv2/core/opencv2/core/cvdef.h
-fastmath.h
--
 cmath
+-
+fastmath.h
 -
 math.h
 -

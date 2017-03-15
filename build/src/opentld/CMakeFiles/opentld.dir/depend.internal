@@ -18,7 +18,7 @@ src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.o
  ../src/opentld/main/Gui.h
  ../src/opentld/main/Main.h
  ../src/opentld/main/Settings.h
- /home/madbob/Downloads/OpenTLD-master/src/opentld/OpenTLD.cpp
+ /home/madbob/src/OpenTLD-master/src/opentld/OpenTLD.cpp
  /usr/local/include/opencv/cv.h
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv/highgui.h

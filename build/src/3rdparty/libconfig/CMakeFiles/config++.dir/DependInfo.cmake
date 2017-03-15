@@ -5,11 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.c" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o"
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.c" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o"
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.c" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o"
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.c" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o"
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.c" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.c" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.c" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.c" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.c" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.c" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc" "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o"
+  "/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc" "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

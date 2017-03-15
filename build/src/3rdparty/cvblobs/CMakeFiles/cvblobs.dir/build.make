@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 # Include any dependencies generated for this target.
 include src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/depend.make
@@ -59,16 +59,16 @@ include src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o: ../src/3rdparty/cvblobs/blob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/blob.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/blob.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/blob.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp > CMakeFiles/cvblobs.dir/blob.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp > CMakeFiles/cvblobs.dir/blob.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/blob.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp -o CMakeFiles/cvblobs.dir/blob.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/blob.cpp -o CMakeFiles/cvblobs.dir/blob.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o.provides.build: src/3rdpa
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o: ../src/3rdparty/cvblobs/BlobContour.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobContour.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobContour.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/BlobContour.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp > CMakeFiles/cvblobs.dir/BlobContour.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp > CMakeFiles/cvblobs.dir/BlobContour.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/BlobContour.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp -o CMakeFiles/cvblobs.dir/BlobContour.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobContour.cpp -o CMakeFiles/cvblobs.dir/BlobContour.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o.provides.build: sr
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o: ../src/3rdparty/cvblobs/BlobOperators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobOperators.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobOperators.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/BlobOperators.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp > CMakeFiles/cvblobs.dir/BlobOperators.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp > CMakeFiles/cvblobs.dir/BlobOperators.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/BlobOperators.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp -o CMakeFiles/cvblobs.dir/BlobOperators.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobOperators.cpp -o CMakeFiles/cvblobs.dir/BlobOperators.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o.provides.build: 
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o: ../src/3rdparty/cvblobs/BlobProperties.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobProperties.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobProperties.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/BlobProperties.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp > CMakeFiles/cvblobs.dir/BlobProperties.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp > CMakeFiles/cvblobs.dir/BlobProperties.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/BlobProperties.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp -o CMakeFiles/cvblobs.dir/BlobProperties.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobProperties.cpp -o CMakeFiles/cvblobs.dir/BlobProperties.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o.provides.build:
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o: ../src/3rdparty/cvblobs/BlobResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobResult.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/BlobResult.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/BlobResult.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp > CMakeFiles/cvblobs.dir/BlobResult.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp > CMakeFiles/cvblobs.dir/BlobResult.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/BlobResult.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp -o CMakeFiles/cvblobs.dir/BlobResult.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/BlobResult.cpp -o CMakeFiles/cvblobs.dir/BlobResult.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o.provides.build: src
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/flags.make
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o: ../src/3rdparty/cvblobs/ComponentLabeling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp > CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp > CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp -o CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs/ComponentLabeling.cpp -o CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o.requires:
 
@@ -221,9 +221,9 @@ lib/libcvblobs.a: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o
 lib/libcvblobs.a: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o
 lib/libcvblobs.a: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make
 lib/libcvblobs.a: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/libcvblobs.a"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -P CMakeFiles/cvblobs.dir/cmake_clean_target.cmake
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cvblobs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/libcvblobs.a"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -P CMakeFiles/cvblobs.dir/cmake_clean_target.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cvblobs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build: lib/libcvblobs.a
@@ -240,10 +240,10 @@ src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/requires: src/3rdparty/cvblobs/CMake
 .PHONY : src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/requires
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -P CMakeFiles/cvblobs.dir/cmake_clean.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs && $(CMAKE_COMMAND) -P CMakeFiles/cvblobs.dir/cmake_clean.cmake
 .PHONY : src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/clean
 
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/Downloads/OpenTLD-master /home/madbob/Downloads/OpenTLD-master/src/3rdparty/cvblobs /home/madbob/Downloads/OpenTLD-master/build /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/src/OpenTLD-master /home/madbob/src/OpenTLD-master/src/3rdparty/cvblobs /home/madbob/src/OpenTLD-master/build /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/depend
 

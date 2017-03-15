@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/madbob/Downloads/OpenTLD-master/src/opentld/OpenTLD.cpp" "/home/madbob/Downloads/OpenTLD-master/build/src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.o"
+  "/home/madbob/src/OpenTLD-master/src/opentld/OpenTLD.cpp" "/home/madbob/src/OpenTLD-master/build/src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,10 +24,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/madbob/Downloads/OpenTLD-master/build/src/opentld/CMakeFiles/main.dir/DependInfo.cmake"
-  "/home/madbob/Downloads/OpenTLD-master/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake"
-  "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake"
-  "/home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake"
+  "/home/madbob/src/OpenTLD-master/build/src/opentld/CMakeFiles/main.dir/DependInfo.cmake"
+  "/home/madbob/src/OpenTLD-master/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake"
+  "/home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/DependInfo.cmake"
+  "/home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -fPIC -O2 -g -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/madbob/Downloads/OpenTLD-master/src/opentld/main -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../libopentld/imacq -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../libopentld/mftracker -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../libopentld/tld -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../libopentld/tld/detector -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../libopentld/tld/detector/cuda -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../3rdparty/cvblobs -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/madbob/Downloads/OpenTLD-master/src/opentld/../3rdparty/libconfig 
+CXX_INCLUDES = -I/home/madbob/src/OpenTLD-master/src/opentld/main -I/home/madbob/src/OpenTLD-master/src/opentld/../libopentld/imacq -I/home/madbob/src/OpenTLD-master/src/opentld/../libopentld/mftracker -I/home/madbob/src/OpenTLD-master/src/opentld/../libopentld/tld -I/home/madbob/src/OpenTLD-master/src/opentld/../libopentld/tld/detector -I/home/madbob/src/OpenTLD-master/src/opentld/../libopentld/tld/detector/cuda -I/home/madbob/src/OpenTLD-master/src/opentld/../3rdparty/cvblobs -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/madbob/src/OpenTLD-master/src/opentld/../3rdparty/libconfig 
 

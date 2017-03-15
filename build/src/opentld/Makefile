@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles /home/madbob/Downloads/OpenTLD-master/build/src/opentld/CMakeFiles/progress.marks
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles /home/madbob/src/OpenTLD-master/build/src/opentld/CMakeFiles/progress.marks
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/clean
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/opentld/CMakeFiles/main.dir/rule:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/CMakeFiles/main.dir/rule
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/CMakeFiles/main.dir/rule
 .PHONY : src/opentld/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ main: src/opentld/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/build
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 # Convenience name for target.
 src/opentld/CMakeFiles/opentld.dir/rule:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/CMakeFiles/opentld.dir/rule
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/opentld/CMakeFiles/opentld.dir/rule
 .PHONY : src/opentld/CMakeFiles/opentld.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ opentld: src/opentld/CMakeFiles/opentld.dir/rule
 
 # fast build rule for target.
 opentld/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/build
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/build
 .PHONY : opentld/fast
 
 OpenTLD.o: OpenTLD.cpp.o
@@ -190,7 +190,7 @@ OpenTLD.o: OpenTLD.cpp.o
 
 # target to build an object file
 OpenTLD.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.o
 .PHONY : OpenTLD.cpp.o
 
 OpenTLD.i: OpenTLD.cpp.i
@@ -199,7 +199,7 @@ OpenTLD.i: OpenTLD.cpp.i
 
 # target to preprocess a source file
 OpenTLD.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.i
 .PHONY : OpenTLD.cpp.i
 
 OpenTLD.s: OpenTLD.cpp.s
@@ -208,7 +208,7 @@ OpenTLD.s: OpenTLD.cpp.s
 
 # target to generate assembly for a file
 OpenTLD.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/opentld.dir/build.make src/opentld/CMakeFiles/opentld.dir/OpenTLD.cpp.s
 .PHONY : OpenTLD.cpp.s
 
 main/Config.o: main/Config.cpp.o
@@ -217,7 +217,7 @@ main/Config.o: main/Config.cpp.o
 
 # target to build an object file
 main/Config.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.o
 .PHONY : main/Config.cpp.o
 
 main/Config.i: main/Config.cpp.i
@@ -226,7 +226,7 @@ main/Config.i: main/Config.cpp.i
 
 # target to preprocess a source file
 main/Config.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.i
 .PHONY : main/Config.cpp.i
 
 main/Config.s: main/Config.cpp.s
@@ -235,7 +235,7 @@ main/Config.s: main/Config.cpp.s
 
 # target to generate assembly for a file
 main/Config.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Config.cpp.s
 .PHONY : main/Config.cpp.s
 
 main/Gui.o: main/Gui.cpp.o
@@ -244,7 +244,7 @@ main/Gui.o: main/Gui.cpp.o
 
 # target to build an object file
 main/Gui.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.o
 .PHONY : main/Gui.cpp.o
 
 main/Gui.i: main/Gui.cpp.i
@@ -253,7 +253,7 @@ main/Gui.i: main/Gui.cpp.i
 
 # target to preprocess a source file
 main/Gui.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.i
 .PHONY : main/Gui.cpp.i
 
 main/Gui.s: main/Gui.cpp.s
@@ -262,7 +262,7 @@ main/Gui.s: main/Gui.cpp.s
 
 # target to generate assembly for a file
 main/Gui.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Gui.cpp.s
 .PHONY : main/Gui.cpp.s
 
 main/Main.o: main/Main.cpp.o
@@ -271,7 +271,7 @@ main/Main.o: main/Main.cpp.o
 
 # target to build an object file
 main/Main.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.o
 .PHONY : main/Main.cpp.o
 
 main/Main.i: main/Main.cpp.i
@@ -280,7 +280,7 @@ main/Main.i: main/Main.cpp.i
 
 # target to preprocess a source file
 main/Main.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.i
 .PHONY : main/Main.cpp.i
 
 main/Main.s: main/Main.cpp.s
@@ -289,7 +289,7 @@ main/Main.s: main/Main.cpp.s
 
 # target to generate assembly for a file
 main/Main.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Main.cpp.s
 .PHONY : main/Main.cpp.s
 
 main/Settings.o: main/Settings.cpp.o
@@ -298,7 +298,7 @@ main/Settings.o: main/Settings.cpp.o
 
 # target to build an object file
 main/Settings.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.o
 .PHONY : main/Settings.cpp.o
 
 main/Settings.i: main/Settings.cpp.i
@@ -307,7 +307,7 @@ main/Settings.i: main/Settings.cpp.i
 
 # target to preprocess a source file
 main/Settings.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.i
 .PHONY : main/Settings.cpp.i
 
 main/Settings.s: main/Settings.cpp.s
@@ -316,7 +316,7 @@ main/Settings.s: main/Settings.cpp.s
 
 # target to generate assembly for a file
 main/Settings.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Settings.cpp.s
 .PHONY : main/Settings.cpp.s
 
 main/Trajectory.o: main/Trajectory.cpp.o
@@ -325,7 +325,7 @@ main/Trajectory.o: main/Trajectory.cpp.o
 
 # target to build an object file
 main/Trajectory.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.o
 .PHONY : main/Trajectory.cpp.o
 
 main/Trajectory.i: main/Trajectory.cpp.i
@@ -334,7 +334,7 @@ main/Trajectory.i: main/Trajectory.cpp.i
 
 # target to preprocess a source file
 main/Trajectory.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.i
 .PHONY : main/Trajectory.cpp.i
 
 main/Trajectory.s: main/Trajectory.cpp.s
@@ -343,7 +343,7 @@ main/Trajectory.s: main/Trajectory.cpp.s
 
 # target to generate assembly for a file
 main/Trajectory.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/opentld/CMakeFiles/main.dir/build.make src/opentld/CMakeFiles/main.dir/main/Trajectory.cpp.s
 .PHONY : main/Trajectory.cpp.s
 
 # Help Target
@@ -389,6 +389,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

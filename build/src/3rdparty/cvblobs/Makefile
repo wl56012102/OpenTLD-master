@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,8 +113,8 @@ install/strip/fast: install/strip
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/progress.marks
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles /home/madbob/src/OpenTLD-master/build/src/3rdparty/cvblobs/CMakeFiles/progress.marks
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/clean
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/rule:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/rule
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/rule
 .PHONY : src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ cvblobs: src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/rule
 
 # fast build rule for target.
 cvblobs/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build
 .PHONY : cvblobs/fast
 
 BlobContour.o: BlobContour.cpp.o
@@ -175,7 +175,7 @@ BlobContour.o: BlobContour.cpp.o
 
 # target to build an object file
 BlobContour.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.o
 .PHONY : BlobContour.cpp.o
 
 BlobContour.i: BlobContour.cpp.i
@@ -184,7 +184,7 @@ BlobContour.i: BlobContour.cpp.i
 
 # target to preprocess a source file
 BlobContour.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.i
 .PHONY : BlobContour.cpp.i
 
 BlobContour.s: BlobContour.cpp.s
@@ -193,7 +193,7 @@ BlobContour.s: BlobContour.cpp.s
 
 # target to generate assembly for a file
 BlobContour.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobContour.cpp.s
 .PHONY : BlobContour.cpp.s
 
 BlobOperators.o: BlobOperators.cpp.o
@@ -202,7 +202,7 @@ BlobOperators.o: BlobOperators.cpp.o
 
 # target to build an object file
 BlobOperators.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.o
 .PHONY : BlobOperators.cpp.o
 
 BlobOperators.i: BlobOperators.cpp.i
@@ -211,7 +211,7 @@ BlobOperators.i: BlobOperators.cpp.i
 
 # target to preprocess a source file
 BlobOperators.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.i
 .PHONY : BlobOperators.cpp.i
 
 BlobOperators.s: BlobOperators.cpp.s
@@ -220,7 +220,7 @@ BlobOperators.s: BlobOperators.cpp.s
 
 # target to generate assembly for a file
 BlobOperators.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobOperators.cpp.s
 .PHONY : BlobOperators.cpp.s
 
 BlobProperties.o: BlobProperties.cpp.o
@@ -229,7 +229,7 @@ BlobProperties.o: BlobProperties.cpp.o
 
 # target to build an object file
 BlobProperties.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.o
 .PHONY : BlobProperties.cpp.o
 
 BlobProperties.i: BlobProperties.cpp.i
@@ -238,7 +238,7 @@ BlobProperties.i: BlobProperties.cpp.i
 
 # target to preprocess a source file
 BlobProperties.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.i
 .PHONY : BlobProperties.cpp.i
 
 BlobProperties.s: BlobProperties.cpp.s
@@ -247,7 +247,7 @@ BlobProperties.s: BlobProperties.cpp.s
 
 # target to generate assembly for a file
 BlobProperties.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobProperties.cpp.s
 .PHONY : BlobProperties.cpp.s
 
 BlobResult.o: BlobResult.cpp.o
@@ -256,7 +256,7 @@ BlobResult.o: BlobResult.cpp.o
 
 # target to build an object file
 BlobResult.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.o
 .PHONY : BlobResult.cpp.o
 
 BlobResult.i: BlobResult.cpp.i
@@ -265,7 +265,7 @@ BlobResult.i: BlobResult.cpp.i
 
 # target to preprocess a source file
 BlobResult.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.i
 .PHONY : BlobResult.cpp.i
 
 BlobResult.s: BlobResult.cpp.s
@@ -274,7 +274,7 @@ BlobResult.s: BlobResult.cpp.s
 
 # target to generate assembly for a file
 BlobResult.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/BlobResult.cpp.s
 .PHONY : BlobResult.cpp.s
 
 ComponentLabeling.o: ComponentLabeling.cpp.o
@@ -283,7 +283,7 @@ ComponentLabeling.o: ComponentLabeling.cpp.o
 
 # target to build an object file
 ComponentLabeling.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.o
 .PHONY : ComponentLabeling.cpp.o
 
 ComponentLabeling.i: ComponentLabeling.cpp.i
@@ -292,7 +292,7 @@ ComponentLabeling.i: ComponentLabeling.cpp.i
 
 # target to preprocess a source file
 ComponentLabeling.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.i
 .PHONY : ComponentLabeling.cpp.i
 
 ComponentLabeling.s: ComponentLabeling.cpp.s
@@ -301,7 +301,7 @@ ComponentLabeling.s: ComponentLabeling.cpp.s
 
 # target to generate assembly for a file
 ComponentLabeling.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/ComponentLabeling.cpp.s
 .PHONY : ComponentLabeling.cpp.s
 
 blob.o: blob.cpp.o
@@ -310,7 +310,7 @@ blob.o: blob.cpp.o
 
 # target to build an object file
 blob.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.o
 .PHONY : blob.cpp.o
 
 blob.i: blob.cpp.i
@@ -319,7 +319,7 @@ blob.i: blob.cpp.i
 
 # target to preprocess a source file
 blob.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.i
 .PHONY : blob.cpp.i
 
 blob.s: blob.cpp.s
@@ -328,7 +328,7 @@ blob.s: blob.cpp.s
 
 # target to generate assembly for a file
 blob.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/build.make src/3rdparty/cvblobs/CMakeFiles/cvblobs.dir/blob.cpp.s
 .PHONY : blob.cpp.s
 
 # Help Target
@@ -373,6 +373,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

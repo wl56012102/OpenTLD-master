@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 # Include any dependencies generated for this target.
 include src/libopentld/CMakeFiles/libopentld.dir/depend.make
@@ -59,16 +59,16 @@ include src/libopentld/CMakeFiles/libopentld.dir/flags.make
 
 src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o: ../src/libopentld/imacq/ImAcq.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp > CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp > CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp -o CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/imacq/ImAcq.cpp -o CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o.provides.build: src/l
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o: ../src/libopentld/mftracker/BB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/BB.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/BB.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BB.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/mftracker/BB.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BB.cpp > CMakeFiles/libopentld.dir/mftracker/BB.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BB.cpp > CMakeFiles/libopentld.dir/mftracker/BB.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/mftracker/BB.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BB.cpp -o CMakeFiles/libopentld.dir/mftracker/BB.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BB.cpp -o CMakeFiles/libopentld.dir/mftracker/BB.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o.provides.build: src/
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o: ../src/libopentld/mftracker/BBPredict.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp > CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp > CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp -o CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/BBPredict.cpp -o CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o.provides.buil
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o: ../src/libopentld/mftracker/FBTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp > CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp > CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp -o CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/FBTrack.cpp -o CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o.provides.build:
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o: ../src/libopentld/mftracker/Lk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Lk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Lk.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Lk.cpp > CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Lk.cpp > CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Lk.cpp -o CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Lk.cpp -o CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o.provides.build: src/
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o: ../src/libopentld/mftracker/Median.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/Median.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Median.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/mftracker/Median.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Median.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/mftracker/Median.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Median.cpp > CMakeFiles/libopentld.dir/mftracker/Median.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Median.cpp > CMakeFiles/libopentld.dir/mftracker/Median.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/mftracker/Median.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/mftracker/Median.cpp -o CMakeFiles/libopentld.dir/mftracker/Median.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/mftracker/Median.cpp -o CMakeFiles/libopentld.dir/mftracker/Median.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o.provides.build: 
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o: ../src/libopentld/tld/Clustering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/Clustering.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/Clustering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/Clustering.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/Clustering.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/Clustering.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/Clustering.cpp > CMakeFiles/libopentld.dir/tld/Clustering.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/Clustering.cpp > CMakeFiles/libopentld.dir/tld/Clustering.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/Clustering.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/Clustering.cpp -o CMakeFiles/libopentld.dir/tld/Clustering.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/Clustering.cpp -o CMakeFiles/libopentld.dir/tld/Clustering.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o.requires:
 
@@ -227,16 +227,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o.provides.build: sr
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o: ../src/libopentld/tld/DetectionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp > CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp > CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp -o CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/DetectionResult.cpp -o CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o.requires:
 
@@ -251,16 +251,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o.provides.buil
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o: ../src/libopentld/tld/detector/DetectorCascade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp > CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp > CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp -o CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/DetectorCascade.cpp -o CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o.requires:
 
@@ -275,16 +275,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o.prov
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o: ../src/libopentld/tld/MedianFlowTracker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp > CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp > CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp -o CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/MedianFlowTracker.cpp -o CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o.requires:
 
@@ -299,16 +299,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o.provides.bu
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o: ../src/libopentld/tld/TLD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/TLD.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/TLD.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLD.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/TLD.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLD.cpp > CMakeFiles/libopentld.dir/tld/TLD.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLD.cpp > CMakeFiles/libopentld.dir/tld/TLD.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/TLD.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLD.cpp -o CMakeFiles/libopentld.dir/tld/TLD.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLD.cpp -o CMakeFiles/libopentld.dir/tld/TLD.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o.requires:
 
@@ -323,16 +323,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o.provides.build: src/libop
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o: ../src/libopentld/tld/TLDUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp > CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp > CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp -o CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/TLDUtil.cpp -o CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o.requires:
 
@@ -347,16 +347,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o.provides.build: src/l
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o: ../src/libopentld/tld/detector/EnsembleClassifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp > CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp > CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp -o CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/EnsembleClassifier.cpp -o CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o.requires:
 
@@ -371,16 +371,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o.p
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o: ../src/libopentld/tld/detector/ForegroundDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp > CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp > CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp -o CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/ForegroundDetector.cpp -o CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o.requires:
 
@@ -395,16 +395,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o.p
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o: ../src/libopentld/tld/detector/NNClassifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp > CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp > CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp -o CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/NNClassifier.cpp -o CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o.requires:
 
@@ -419,16 +419,16 @@ src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o.provide
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o: src/libopentld/CMakeFiles/libopentld.dir/flags.make
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o: ../src/libopentld/tld/detector/VarianceFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o -c /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o -c /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp > CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp > CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp -o CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/libopentld/tld/detector/VarianceFilter.cpp -o CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s
 
 src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o.requires:
 
@@ -481,9 +481,9 @@ lib/libopentld.a: src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassi
 lib/libopentld.a: src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o
 lib/libopentld.a: src/libopentld/CMakeFiles/libopentld.dir/build.make
 lib/libopentld.a: src/libopentld/CMakeFiles/libopentld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library ../../lib/libopentld.a"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -P CMakeFiles/libopentld.dir/cmake_clean_target.cmake
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libopentld.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library ../../lib/libopentld.a"
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -P CMakeFiles/libopentld.dir/cmake_clean_target.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libopentld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libopentld/CMakeFiles/libopentld.dir/build: lib/libopentld.a
@@ -510,10 +510,10 @@ src/libopentld/CMakeFiles/libopentld.dir/requires: src/libopentld/CMakeFiles/lib
 .PHONY : src/libopentld/CMakeFiles/libopentld.dir/requires
 
 src/libopentld/CMakeFiles/libopentld.dir/clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -P CMakeFiles/libopentld.dir/cmake_clean.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/libopentld && $(CMAKE_COMMAND) -P CMakeFiles/libopentld.dir/cmake_clean.cmake
 .PHONY : src/libopentld/CMakeFiles/libopentld.dir/clean
 
 src/libopentld/CMakeFiles/libopentld.dir/depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/Downloads/OpenTLD-master /home/madbob/Downloads/OpenTLD-master/src/libopentld /home/madbob/Downloads/OpenTLD-master/build /home/madbob/Downloads/OpenTLD-master/build/src/libopentld /home/madbob/Downloads/OpenTLD-master/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/src/OpenTLD-master /home/madbob/src/OpenTLD-master/src/libopentld /home/madbob/src/OpenTLD-master/build /home/madbob/src/OpenTLD-master/build/src/libopentld /home/madbob/src/OpenTLD-master/build/src/libopentld/CMakeFiles/libopentld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libopentld/CMakeFiles/libopentld.dir/depend
 

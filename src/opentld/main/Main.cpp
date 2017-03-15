@@ -227,7 +227,7 @@ void Main::doWork()
             {
 
 
-                CvSize size = cvSize(img->width*2,img->height*2);
+                CvSize size = cvSize(img->width,img->height);
                 IplImage*img2 =cvCreateImage(size,img->depth,img->nChannels);
                 cvResize(img, img2,CV_INTER_LINEAR);
                 gui->showImage(img2);

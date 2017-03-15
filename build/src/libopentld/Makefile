@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,8 +113,8 @@ install/strip/fast: install/strip
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles /home/madbob/Downloads/OpenTLD-master/build/src/libopentld/CMakeFiles/progress.marks
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/Downloads/OpenTLD-master/build/CMakeFiles 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles /home/madbob/src/OpenTLD-master/build/src/libopentld/CMakeFiles/progress.marks
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/madbob/src/OpenTLD-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/clean
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/preinstall
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libopentld/CMakeFiles/libopentld.dir/rule:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/CMakeFiles/libopentld.dir/rule
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f CMakeFiles/Makefile2 src/libopentld/CMakeFiles/libopentld.dir/rule
 .PHONY : src/libopentld/CMakeFiles/libopentld.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ libopentld: src/libopentld/CMakeFiles/libopentld.dir/rule
 
 # fast build rule for target.
 libopentld/fast:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/build
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/build
 .PHONY : libopentld/fast
 
 imacq/ImAcq.o: imacq/ImAcq.cpp.o
@@ -175,7 +175,7 @@ imacq/ImAcq.o: imacq/ImAcq.cpp.o
 
 # target to build an object file
 imacq/ImAcq.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.o
 .PHONY : imacq/ImAcq.cpp.o
 
 imacq/ImAcq.i: imacq/ImAcq.cpp.i
@@ -184,7 +184,7 @@ imacq/ImAcq.i: imacq/ImAcq.cpp.i
 
 # target to preprocess a source file
 imacq/ImAcq.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.i
 .PHONY : imacq/ImAcq.cpp.i
 
 imacq/ImAcq.s: imacq/ImAcq.cpp.s
@@ -193,7 +193,7 @@ imacq/ImAcq.s: imacq/ImAcq.cpp.s
 
 # target to generate assembly for a file
 imacq/ImAcq.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/imacq/ImAcq.cpp.s
 .PHONY : imacq/ImAcq.cpp.s
 
 mftracker/BB.o: mftracker/BB.cpp.o
@@ -202,7 +202,7 @@ mftracker/BB.o: mftracker/BB.cpp.o
 
 # target to build an object file
 mftracker/BB.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.o
 .PHONY : mftracker/BB.cpp.o
 
 mftracker/BB.i: mftracker/BB.cpp.i
@@ -211,7 +211,7 @@ mftracker/BB.i: mftracker/BB.cpp.i
 
 # target to preprocess a source file
 mftracker/BB.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.i
 .PHONY : mftracker/BB.cpp.i
 
 mftracker/BB.s: mftracker/BB.cpp.s
@@ -220,7 +220,7 @@ mftracker/BB.s: mftracker/BB.cpp.s
 
 # target to generate assembly for a file
 mftracker/BB.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BB.cpp.s
 .PHONY : mftracker/BB.cpp.s
 
 mftracker/BBPredict.o: mftracker/BBPredict.cpp.o
@@ -229,7 +229,7 @@ mftracker/BBPredict.o: mftracker/BBPredict.cpp.o
 
 # target to build an object file
 mftracker/BBPredict.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.o
 .PHONY : mftracker/BBPredict.cpp.o
 
 mftracker/BBPredict.i: mftracker/BBPredict.cpp.i
@@ -238,7 +238,7 @@ mftracker/BBPredict.i: mftracker/BBPredict.cpp.i
 
 # target to preprocess a source file
 mftracker/BBPredict.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.i
 .PHONY : mftracker/BBPredict.cpp.i
 
 mftracker/BBPredict.s: mftracker/BBPredict.cpp.s
@@ -247,7 +247,7 @@ mftracker/BBPredict.s: mftracker/BBPredict.cpp.s
 
 # target to generate assembly for a file
 mftracker/BBPredict.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/BBPredict.cpp.s
 .PHONY : mftracker/BBPredict.cpp.s
 
 mftracker/FBTrack.o: mftracker/FBTrack.cpp.o
@@ -256,7 +256,7 @@ mftracker/FBTrack.o: mftracker/FBTrack.cpp.o
 
 # target to build an object file
 mftracker/FBTrack.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.o
 .PHONY : mftracker/FBTrack.cpp.o
 
 mftracker/FBTrack.i: mftracker/FBTrack.cpp.i
@@ -265,7 +265,7 @@ mftracker/FBTrack.i: mftracker/FBTrack.cpp.i
 
 # target to preprocess a source file
 mftracker/FBTrack.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.i
 .PHONY : mftracker/FBTrack.cpp.i
 
 mftracker/FBTrack.s: mftracker/FBTrack.cpp.s
@@ -274,7 +274,7 @@ mftracker/FBTrack.s: mftracker/FBTrack.cpp.s
 
 # target to generate assembly for a file
 mftracker/FBTrack.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/FBTrack.cpp.s
 .PHONY : mftracker/FBTrack.cpp.s
 
 mftracker/Lk.o: mftracker/Lk.cpp.o
@@ -283,7 +283,7 @@ mftracker/Lk.o: mftracker/Lk.cpp.o
 
 # target to build an object file
 mftracker/Lk.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.o
 .PHONY : mftracker/Lk.cpp.o
 
 mftracker/Lk.i: mftracker/Lk.cpp.i
@@ -292,7 +292,7 @@ mftracker/Lk.i: mftracker/Lk.cpp.i
 
 # target to preprocess a source file
 mftracker/Lk.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.i
 .PHONY : mftracker/Lk.cpp.i
 
 mftracker/Lk.s: mftracker/Lk.cpp.s
@@ -301,7 +301,7 @@ mftracker/Lk.s: mftracker/Lk.cpp.s
 
 # target to generate assembly for a file
 mftracker/Lk.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Lk.cpp.s
 .PHONY : mftracker/Lk.cpp.s
 
 mftracker/Median.o: mftracker/Median.cpp.o
@@ -310,7 +310,7 @@ mftracker/Median.o: mftracker/Median.cpp.o
 
 # target to build an object file
 mftracker/Median.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.o
 .PHONY : mftracker/Median.cpp.o
 
 mftracker/Median.i: mftracker/Median.cpp.i
@@ -319,7 +319,7 @@ mftracker/Median.i: mftracker/Median.cpp.i
 
 # target to preprocess a source file
 mftracker/Median.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.i
 .PHONY : mftracker/Median.cpp.i
 
 mftracker/Median.s: mftracker/Median.cpp.s
@@ -328,7 +328,7 @@ mftracker/Median.s: mftracker/Median.cpp.s
 
 # target to generate assembly for a file
 mftracker/Median.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/mftracker/Median.cpp.s
 .PHONY : mftracker/Median.cpp.s
 
 tld/Clustering.o: tld/Clustering.cpp.o
@@ -337,7 +337,7 @@ tld/Clustering.o: tld/Clustering.cpp.o
 
 # target to build an object file
 tld/Clustering.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.o
 .PHONY : tld/Clustering.cpp.o
 
 tld/Clustering.i: tld/Clustering.cpp.i
@@ -346,7 +346,7 @@ tld/Clustering.i: tld/Clustering.cpp.i
 
 # target to preprocess a source file
 tld/Clustering.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.i
 .PHONY : tld/Clustering.cpp.i
 
 tld/Clustering.s: tld/Clustering.cpp.s
@@ -355,7 +355,7 @@ tld/Clustering.s: tld/Clustering.cpp.s
 
 # target to generate assembly for a file
 tld/Clustering.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/Clustering.cpp.s
 .PHONY : tld/Clustering.cpp.s
 
 tld/DetectionResult.o: tld/DetectionResult.cpp.o
@@ -364,7 +364,7 @@ tld/DetectionResult.o: tld/DetectionResult.cpp.o
 
 # target to build an object file
 tld/DetectionResult.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.o
 .PHONY : tld/DetectionResult.cpp.o
 
 tld/DetectionResult.i: tld/DetectionResult.cpp.i
@@ -373,7 +373,7 @@ tld/DetectionResult.i: tld/DetectionResult.cpp.i
 
 # target to preprocess a source file
 tld/DetectionResult.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.i
 .PHONY : tld/DetectionResult.cpp.i
 
 tld/DetectionResult.s: tld/DetectionResult.cpp.s
@@ -382,7 +382,7 @@ tld/DetectionResult.s: tld/DetectionResult.cpp.s
 
 # target to generate assembly for a file
 tld/DetectionResult.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/DetectionResult.cpp.s
 .PHONY : tld/DetectionResult.cpp.s
 
 tld/MedianFlowTracker.o: tld/MedianFlowTracker.cpp.o
@@ -391,7 +391,7 @@ tld/MedianFlowTracker.o: tld/MedianFlowTracker.cpp.o
 
 # target to build an object file
 tld/MedianFlowTracker.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.o
 .PHONY : tld/MedianFlowTracker.cpp.o
 
 tld/MedianFlowTracker.i: tld/MedianFlowTracker.cpp.i
@@ -400,7 +400,7 @@ tld/MedianFlowTracker.i: tld/MedianFlowTracker.cpp.i
 
 # target to preprocess a source file
 tld/MedianFlowTracker.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.i
 .PHONY : tld/MedianFlowTracker.cpp.i
 
 tld/MedianFlowTracker.s: tld/MedianFlowTracker.cpp.s
@@ -409,7 +409,7 @@ tld/MedianFlowTracker.s: tld/MedianFlowTracker.cpp.s
 
 # target to generate assembly for a file
 tld/MedianFlowTracker.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/MedianFlowTracker.cpp.s
 .PHONY : tld/MedianFlowTracker.cpp.s
 
 tld/TLD.o: tld/TLD.cpp.o
@@ -418,7 +418,7 @@ tld/TLD.o: tld/TLD.cpp.o
 
 # target to build an object file
 tld/TLD.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.o
 .PHONY : tld/TLD.cpp.o
 
 tld/TLD.i: tld/TLD.cpp.i
@@ -427,7 +427,7 @@ tld/TLD.i: tld/TLD.cpp.i
 
 # target to preprocess a source file
 tld/TLD.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.i
 .PHONY : tld/TLD.cpp.i
 
 tld/TLD.s: tld/TLD.cpp.s
@@ -436,7 +436,7 @@ tld/TLD.s: tld/TLD.cpp.s
 
 # target to generate assembly for a file
 tld/TLD.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLD.cpp.s
 .PHONY : tld/TLD.cpp.s
 
 tld/TLDUtil.o: tld/TLDUtil.cpp.o
@@ -445,7 +445,7 @@ tld/TLDUtil.o: tld/TLDUtil.cpp.o
 
 # target to build an object file
 tld/TLDUtil.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.o
 .PHONY : tld/TLDUtil.cpp.o
 
 tld/TLDUtil.i: tld/TLDUtil.cpp.i
@@ -454,7 +454,7 @@ tld/TLDUtil.i: tld/TLDUtil.cpp.i
 
 # target to preprocess a source file
 tld/TLDUtil.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.i
 .PHONY : tld/TLDUtil.cpp.i
 
 tld/TLDUtil.s: tld/TLDUtil.cpp.s
@@ -463,7 +463,7 @@ tld/TLDUtil.s: tld/TLDUtil.cpp.s
 
 # target to generate assembly for a file
 tld/TLDUtil.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/TLDUtil.cpp.s
 .PHONY : tld/TLDUtil.cpp.s
 
 tld/detector/DetectorCascade.o: tld/detector/DetectorCascade.cpp.o
@@ -472,7 +472,7 @@ tld/detector/DetectorCascade.o: tld/detector/DetectorCascade.cpp.o
 
 # target to build an object file
 tld/detector/DetectorCascade.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.o
 .PHONY : tld/detector/DetectorCascade.cpp.o
 
 tld/detector/DetectorCascade.i: tld/detector/DetectorCascade.cpp.i
@@ -481,7 +481,7 @@ tld/detector/DetectorCascade.i: tld/detector/DetectorCascade.cpp.i
 
 # target to preprocess a source file
 tld/detector/DetectorCascade.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.i
 .PHONY : tld/detector/DetectorCascade.cpp.i
 
 tld/detector/DetectorCascade.s: tld/detector/DetectorCascade.cpp.s
@@ -490,7 +490,7 @@ tld/detector/DetectorCascade.s: tld/detector/DetectorCascade.cpp.s
 
 # target to generate assembly for a file
 tld/detector/DetectorCascade.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/DetectorCascade.cpp.s
 .PHONY : tld/detector/DetectorCascade.cpp.s
 
 tld/detector/EnsembleClassifier.o: tld/detector/EnsembleClassifier.cpp.o
@@ -499,7 +499,7 @@ tld/detector/EnsembleClassifier.o: tld/detector/EnsembleClassifier.cpp.o
 
 # target to build an object file
 tld/detector/EnsembleClassifier.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.o
 .PHONY : tld/detector/EnsembleClassifier.cpp.o
 
 tld/detector/EnsembleClassifier.i: tld/detector/EnsembleClassifier.cpp.i
@@ -508,7 +508,7 @@ tld/detector/EnsembleClassifier.i: tld/detector/EnsembleClassifier.cpp.i
 
 # target to preprocess a source file
 tld/detector/EnsembleClassifier.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.i
 .PHONY : tld/detector/EnsembleClassifier.cpp.i
 
 tld/detector/EnsembleClassifier.s: tld/detector/EnsembleClassifier.cpp.s
@@ -517,7 +517,7 @@ tld/detector/EnsembleClassifier.s: tld/detector/EnsembleClassifier.cpp.s
 
 # target to generate assembly for a file
 tld/detector/EnsembleClassifier.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/EnsembleClassifier.cpp.s
 .PHONY : tld/detector/EnsembleClassifier.cpp.s
 
 tld/detector/ForegroundDetector.o: tld/detector/ForegroundDetector.cpp.o
@@ -526,7 +526,7 @@ tld/detector/ForegroundDetector.o: tld/detector/ForegroundDetector.cpp.o
 
 # target to build an object file
 tld/detector/ForegroundDetector.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.o
 .PHONY : tld/detector/ForegroundDetector.cpp.o
 
 tld/detector/ForegroundDetector.i: tld/detector/ForegroundDetector.cpp.i
@@ -535,7 +535,7 @@ tld/detector/ForegroundDetector.i: tld/detector/ForegroundDetector.cpp.i
 
 # target to preprocess a source file
 tld/detector/ForegroundDetector.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.i
 .PHONY : tld/detector/ForegroundDetector.cpp.i
 
 tld/detector/ForegroundDetector.s: tld/detector/ForegroundDetector.cpp.s
@@ -544,7 +544,7 @@ tld/detector/ForegroundDetector.s: tld/detector/ForegroundDetector.cpp.s
 
 # target to generate assembly for a file
 tld/detector/ForegroundDetector.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/ForegroundDetector.cpp.s
 .PHONY : tld/detector/ForegroundDetector.cpp.s
 
 tld/detector/NNClassifier.o: tld/detector/NNClassifier.cpp.o
@@ -553,7 +553,7 @@ tld/detector/NNClassifier.o: tld/detector/NNClassifier.cpp.o
 
 # target to build an object file
 tld/detector/NNClassifier.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.o
 .PHONY : tld/detector/NNClassifier.cpp.o
 
 tld/detector/NNClassifier.i: tld/detector/NNClassifier.cpp.i
@@ -562,7 +562,7 @@ tld/detector/NNClassifier.i: tld/detector/NNClassifier.cpp.i
 
 # target to preprocess a source file
 tld/detector/NNClassifier.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.i
 .PHONY : tld/detector/NNClassifier.cpp.i
 
 tld/detector/NNClassifier.s: tld/detector/NNClassifier.cpp.s
@@ -571,7 +571,7 @@ tld/detector/NNClassifier.s: tld/detector/NNClassifier.cpp.s
 
 # target to generate assembly for a file
 tld/detector/NNClassifier.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/NNClassifier.cpp.s
 .PHONY : tld/detector/NNClassifier.cpp.s
 
 tld/detector/VarianceFilter.o: tld/detector/VarianceFilter.cpp.o
@@ -580,7 +580,7 @@ tld/detector/VarianceFilter.o: tld/detector/VarianceFilter.cpp.o
 
 # target to build an object file
 tld/detector/VarianceFilter.cpp.o:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.o
 .PHONY : tld/detector/VarianceFilter.cpp.o
 
 tld/detector/VarianceFilter.i: tld/detector/VarianceFilter.cpp.i
@@ -589,7 +589,7 @@ tld/detector/VarianceFilter.i: tld/detector/VarianceFilter.cpp.i
 
 # target to preprocess a source file
 tld/detector/VarianceFilter.cpp.i:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.i
 .PHONY : tld/detector/VarianceFilter.cpp.i
 
 tld/detector/VarianceFilter.s: tld/detector/VarianceFilter.cpp.s
@@ -598,7 +598,7 @@ tld/detector/VarianceFilter.s: tld/detector/VarianceFilter.cpp.s
 
 # target to generate assembly for a file
 tld/detector/VarianceFilter.cpp.s:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s
+	cd /home/madbob/src/OpenTLD-master/build && $(MAKE) -f src/libopentld/CMakeFiles/libopentld.dir/build.make src/libopentld/CMakeFiles/libopentld.dir/tld/detector/VarianceFilter.cpp.s
 .PHONY : tld/detector/VarianceFilter.cpp.s
 
 # Help Target
@@ -673,6 +673,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

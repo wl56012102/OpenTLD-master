@@ -94,13 +94,13 @@ opencv/cv.h
 
 ../src/opentld/../libopentld/tld/detector/NormalizedPatch.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Config.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/Config.cpp
 Config.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Config.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Config.h
 Main.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Config.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Config.h
 iostream
 -
 string
@@ -108,47 +108,47 @@ string
 libconfig.h++
 -
 ImAcq.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/ImAcq.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/ImAcq.h
 Settings.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Settings.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Settings.h
 Main.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.h
 getopt.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Gui.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/Gui.cpp
 Gui.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Gui.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Gui.h
 Main.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.h
 string
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Gui.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Gui.h
 string
 -
 opencv/highgui.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.cpp
 Main.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.h
 opencv2/imgproc/imgproc_c.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/opencv2/imgproc/imgproc_c.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/imgproc.hpp
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/opencv2/imgproc/imgproc.hpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/opencv2/imgproc/imgproc.hpp
 Config.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Config.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Config.h
 ImAcq.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/ImAcq.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/ImAcq.h
 Gui.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Gui.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Gui.h
 TLDUtil.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/TLDUtil.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/TLDUtil.h
 Trajectory.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Trajectory.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Trajectory.h
 Timing.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Timing.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Timing.h
 vector
 -
 stdio.h
@@ -168,31 +168,31 @@ opencv2/imgproc/imgproc.hpp
 vector
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Main.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Main.h
 TLD.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/TLD.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/TLD.h
 ImAcq.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/ImAcq.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/ImAcq.h
 Gui.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Gui.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Gui.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Settings.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/Settings.cpp
 Settings.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Settings.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Settings.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Settings.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Settings.h
 vector
 -
 ImAcq.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/ImAcq.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/ImAcq.h
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Trajectory.cpp
+/home/madbob/src/OpenTLD-master/src/opentld/main/Trajectory.cpp
 Trajectory.h
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Trajectory.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Trajectory.h
 cstdio
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/opentld/main/Trajectory.h
+/home/madbob/src/OpenTLD-master/src/opentld/main/Trajectory.h
 vector
 -
 opencv/cv.h
@@ -375,9 +375,9 @@ ostream
 /usr/local/include/opencv2/core/fast_math.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv2/core/opencv2/core/cvdef.h
-fastmath.h
--
 cmath
+-
+fastmath.h
 -
 math.h
 -

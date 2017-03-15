@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.c
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.c
 string.h
 -
 stdlib.h
 -
 libconfig.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
 wincompat.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
 malloc.h
 -
 parsectx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
 scanctx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
 stddef.h
 -
 libintl.h
@@ -36,23 +36,23 @@ stdlib.h
 stdio.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.h
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.c
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.c
 ac_config.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/ac_config.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/ac_config.h
 libconfig.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
 grammar.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.h
 scanner.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.h
 scanctx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
 parsectx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
 wincompat.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
 locale.h
 -
 xlocale.h
@@ -64,21 +64,21 @@ string.h
 ctype.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
 stdio.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
 libconfig.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
 strbuf.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.c
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.c
 scanctx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
 wincompat.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
 stddef.h
 -
 stdlib.h
@@ -86,17 +86,17 @@ stdlib.h
 string.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
 libconfig.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.h
 strbuf.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
 stdio.h
 -
 sys/types.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.c
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.c
 stdio.h
 -
 string.h
@@ -114,17 +114,17 @@ ctype.h
 string.h
 -
 grammar.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.h
 wincompat.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
 parsectx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/parsectx.h
 scanctx.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.h
 unistd.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.h
 stdio.h
 -
 string.h
@@ -136,21 +136,21 @@ stdlib.h
 inttypes.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.c
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.c
 strbuf.h
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
 string.h
 -
 stdlib.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.h
 string.h
 -
 sys/types.h
 -
 
-/home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
+/home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/wincompat.h
 windows.h
 -
 

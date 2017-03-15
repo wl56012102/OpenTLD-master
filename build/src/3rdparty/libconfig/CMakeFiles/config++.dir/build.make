@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madbob/Downloads/OpenTLD-master
+CMAKE_SOURCE_DIR = /home/madbob/src/OpenTLD-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madbob/Downloads/OpenTLD-master/build
+CMAKE_BINARY_DIR = /home/madbob/src/OpenTLD-master/build
 
 # Include any dependencies generated for this target.
 include src/3rdparty/libconfig/CMakeFiles/config++.dir/depend.make
@@ -59,16 +59,16 @@ include src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o: ../src/3rdparty/libconfig/grammar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/grammar.c.o   -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/grammar.c.o   -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.c
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/config++.dir/grammar.c.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.c > CMakeFiles/config++.dir/grammar.c.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.c > CMakeFiles/config++.dir/grammar.c.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/config++.dir/grammar.c.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/grammar.c -o CMakeFiles/config++.dir/grammar.c.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/grammar.c -o CMakeFiles/config++.dir/grammar.c.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o.requires:
 
@@ -83,16 +83,16 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/grammar.c.o.provides.build: src/3
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o: ../src/3rdparty/libconfig/libconfig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/libconfig.c.o   -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/libconfig.c.o   -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.c
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/config++.dir/libconfig.c.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.c > CMakeFiles/config++.dir/libconfig.c.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.c > CMakeFiles/config++.dir/libconfig.c.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/config++.dir/libconfig.c.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfig.c -o CMakeFiles/config++.dir/libconfig.c.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfig.c -o CMakeFiles/config++.dir/libconfig.c.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o.requires:
 
@@ -107,16 +107,16 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfig.c.o.provides.build: src
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o: ../src/3rdparty/libconfig/libconfigcpp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config++.dir/libconfigcpp.cc.o -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config++.dir/libconfigcpp.cc.o -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config++.dir/libconfigcpp.cc.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc > CMakeFiles/config++.dir/libconfigcpp.cc.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc > CMakeFiles/config++.dir/libconfigcpp.cc.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config++.dir/libconfigcpp.cc.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc -o CMakeFiles/config++.dir/libconfigcpp.cc.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/libconfigcpp.cc -o CMakeFiles/config++.dir/libconfigcpp.cc.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o.requires:
 
@@ -131,16 +131,16 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/libconfigcpp.cc.o.provides.build:
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o: ../src/3rdparty/libconfig/scanctx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/scanctx.c.o   -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/scanctx.c.o   -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.c
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/config++.dir/scanctx.c.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.c > CMakeFiles/config++.dir/scanctx.c.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.c > CMakeFiles/config++.dir/scanctx.c.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/config++.dir/scanctx.c.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanctx.c -o CMakeFiles/config++.dir/scanctx.c.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanctx.c -o CMakeFiles/config++.dir/scanctx.c.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o.requires:
 
@@ -155,16 +155,16 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/scanctx.c.o.provides.build: src/3
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o: ../src/3rdparty/libconfig/scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/scanner.c.o   -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/scanner.c.o   -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.c
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/config++.dir/scanner.c.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.c > CMakeFiles/config++.dir/scanner.c.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.c > CMakeFiles/config++.dir/scanner.c.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/config++.dir/scanner.c.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/scanner.c -o CMakeFiles/config++.dir/scanner.c.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/scanner.c -o CMakeFiles/config++.dir/scanner.c.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o.requires:
 
@@ -179,16 +179,16 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o.provides.build: src/3
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o: src/3rdparty/libconfig/CMakeFiles/config++.dir/flags.make
 src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o: ../src/3rdparty/libconfig/strbuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/strbuf.c.o   -c /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/config++.dir/strbuf.c.o   -c /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.c
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/config++.dir/strbuf.c.i"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.c > CMakeFiles/config++.dir/strbuf.c.i
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.c > CMakeFiles/config++.dir/strbuf.c.i
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/config++.dir/strbuf.c.s"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig/strbuf.c -o CMakeFiles/config++.dir/strbuf.c.s
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig/strbuf.c -o CMakeFiles/config++.dir/strbuf.c.s
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o.requires:
 
@@ -221,9 +221,9 @@ lib/libconfig++.a: src/3rdparty/libconfig/CMakeFiles/config++.dir/scanner.c.o
 lib/libconfig++.a: src/3rdparty/libconfig/CMakeFiles/config++.dir/strbuf.c.o
 lib/libconfig++.a: src/3rdparty/libconfig/CMakeFiles/config++.dir/build.make
 lib/libconfig++.a: src/3rdparty/libconfig/CMakeFiles/config++.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/Downloads/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/libconfig++.a"
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -P CMakeFiles/config++.dir/cmake_clean_target.cmake
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config++.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madbob/src/OpenTLD-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/libconfig++.a"
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -P CMakeFiles/config++.dir/cmake_clean_target.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config++.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/3rdparty/libconfig/CMakeFiles/config++.dir/build: lib/libconfig++.a
@@ -240,10 +240,10 @@ src/3rdparty/libconfig/CMakeFiles/config++.dir/requires: src/3rdparty/libconfig/
 .PHONY : src/3rdparty/libconfig/CMakeFiles/config++.dir/requires
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/clean:
-	cd /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -P CMakeFiles/config++.dir/cmake_clean.cmake
+	cd /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig && $(CMAKE_COMMAND) -P CMakeFiles/config++.dir/cmake_clean.cmake
 .PHONY : src/3rdparty/libconfig/CMakeFiles/config++.dir/clean
 
 src/3rdparty/libconfig/CMakeFiles/config++.dir/depend:
-	cd /home/madbob/Downloads/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/Downloads/OpenTLD-master /home/madbob/Downloads/OpenTLD-master/src/3rdparty/libconfig /home/madbob/Downloads/OpenTLD-master/build /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig /home/madbob/Downloads/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/madbob/src/OpenTLD-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madbob/src/OpenTLD-master /home/madbob/src/OpenTLD-master/src/3rdparty/libconfig /home/madbob/src/OpenTLD-master/build /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig /home/madbob/src/OpenTLD-master/build/src/3rdparty/libconfig/CMakeFiles/config++.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/3rdparty/libconfig/CMakeFiles/config++.dir/depend
 

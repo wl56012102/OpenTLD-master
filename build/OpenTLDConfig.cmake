@@ -1,7 +1,7 @@
 find_package(OpenCV)
 
-set(bin_dir "/home/madbob/Downloads/OpenTLD-master/build")
-set(src_dir "/home/madbob/Downloads/OpenTLD-master")
+set(bin_dir "/home/madbob/src/OpenTLD-master/build")
+set(src_dir "/home/madbob/src/OpenTLD-master")
 
 set(OPENTLD_INCLUDE_DIRS
     ${src_dir}/src/3rdparty/cvblobs
